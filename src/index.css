@@ -1,0 +1,61 @@
+body {
+  background-color: #ccc;
+}
+
+html {
+  font-size: 16px;
+}
+
+main {
+  padding: 20px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* .input-area {
+  background-color: azure;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+} */
+
+input {
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+button {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+.container {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.container + .container {
+  margin-top: 20px;
+}
+.container ul li .list-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.incomplete {
+  background-color: #fff;
+  border: 3px solid aliceblue;
+}/*# sourceMappingURL=style.css.map */
